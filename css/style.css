@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(/img/content/burger_bg.jfif) no-repeat center/cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.logo {
+    width: 52px;
+    height: 33px;
+}
+
+.logo__img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -1px;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    margin-right: 28px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.nav__item {
+    margin-right: 28px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {}
+
+.btn {
+    background: #F6762C;;
+    border-radius: 5px;
+    padding: 15px 36px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.content {
+    max-width: 49%;
+    color: #FFFFFF;
+    padding-top: 186px;
+}
+
+.content__desc {}
+
+.content__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.17;
+}
+
+.content__title {
+    margin-bottom: 24px;
+}
+
+.content__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0.7;
+    margin-bottom: 42px;
+}
