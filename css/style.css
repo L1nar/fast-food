@@ -177,7 +177,7 @@ img {
     }
 
     .product-card__desc {
-        color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 0.5);
         font-size: 16px;
         line-height: 19px;
         font-weight: 400;
@@ -224,7 +224,7 @@ img {
         font-size: 16px;
         line-height: 19px;
         color: #FFFFFF;
-                opacity: 0.7;
+        opacity: 0.7;
     }
 
     .order__paragraph {
@@ -326,4 +326,86 @@ img {
     .offer__btn {
         padding: 13px 36px;
         font-size: 12px;
+    }
+
+    .feedback {
+        padding-bottom: 194px;
+    }
+
+    .feedback__container {
+        display: flex;
+    }
+
+    .feedback__avatars {
+    }
+    
+    .feedback__column {
+        width: 50%;
+    }
+
+    .avatars {
+        border: 1px dashed rgba(246, 118, 44, 0.3);
+        height: 346px;
+        width: 346px;
+        position: relative;
+    }
+
+    .avatar {
+        width: 85px;
+        height: 85px;
+        overflow: hidden;
+        border-radius: 50% ;    
+    }
+
+    .feedback__avatar {
+        position: absolute;
+    }
+
+    .feedback__avatar:nth-child(1) {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .feedback__avatar:nth-child(2) {
+        top: 50%;
+        right: 0;
+        transform: translate(50%, -50%);
+    }
+
+    .feedback__avatar:nth-child(3) {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .feedback__avatar:nth-child(4) {
+        top: 50%;
+        left: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .avatar__link {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .avatar__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .review {
+    }
+
+    .review__text {
+    }
+
+    .review__user-name {
+    }
+
+    .review__user-info {
     }
