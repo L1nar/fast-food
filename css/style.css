@@ -334,6 +334,7 @@ img {
 
     .feedback__container {
         display: flex;
+        align-items: center;
     }
 
     .feedback__avatars {
@@ -430,13 +431,53 @@ img {
     }
 
     .review {
+        margin: 0 auto;
+        max-width: 368px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);    
+        position: relative;
+    }
+
+    .review::before {
+        content: "";
+        display: block;
+        width: 46px;
+        height: 46px;
+        background: rgba(246, 118, 44, 0.1);
+        position: absolute;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: -83px;
+        transform: translate(-50%, 0);
+    }
+    
+    .review::after {
+        content: "";
+        display: block;
+        width: 36px;
+        height: 31px;
+        background: url(../img/icons/fonts.svg);
+        position: absolute;
+        left: 47%;
+        transform: translate(-50%, 0);
+        top: -70px;
+        transform: translate(-50%, 0);
     }
 
     .review__text {
+        margin-bottom: 28px;
     }
 
     .review__user-name {
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .review__user-info {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
     }
