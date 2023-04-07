@@ -481,3 +481,78 @@ img {
         font-size: 12px;
         line-height: 14px;
     }
+
+    .footer {
+        padding-top: 125px 0px 140px;
+    }
+
+    .footer__container {
+        display: flex;
+    }
+
+    .footer__contact {
+    }
+
+    .logo {
+    }
+
+    .footer__logo {
+    }
+
+    .logo__img {
+    }
+
+    .footer__links {
+    }
+
+    .contact-link {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .contact__link-img {
+    }
+
+    .contact-link__text {
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: rgba(255, 255, 255, 0.8);
+
+    }
+
+    .footer__menu {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    .footer__menu-col {
+    }
+
+    .footer__menu-title {
+    }
+
+    .footer__menu-list {
+    }
+
+    .footer__menu-item {
+    }
+
+    .footer__menu-link {
+    }
+    
+    .social {
+    }
+
+    .social__item {
+    }
+
+    .social__link {
+    }
+
+    .social__icon {
+    }
