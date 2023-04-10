@@ -491,6 +491,7 @@ img {
     }
 
     .footer__contact {
+        flex-direction: column;
     }
 
     .logo {
@@ -500,6 +501,8 @@ img {
     }
 
     .logo__img {
+        width: 175.87px;
+height: 88.09px;
     }
 
     .footer__links {
@@ -516,17 +519,17 @@ img {
 
     .contact-link__text {
         font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    color: rgba(255, 255, 255, 0.8);
-
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.8); 
     }
 
     .footer__menu {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         flex: 1;
     }
 
@@ -534,6 +537,13 @@ img {
     }
 
     .footer__menu-title {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+margin-bottom: 9px;
     }
 
     .footer__menu-list {
@@ -543,12 +553,25 @@ img {
     }
 
     .footer__menu-link {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: rgba(255, 255, 255, 0.8);
+margin-bottom: 10px;
     }
     
     .social {
+        display: flex;
     }
 
     .social__item {
+        margin-right: 13px;
+    }
+
+    .social__item:last-child {
+        margin-right: 0px;
     }
 
     .social__link {
