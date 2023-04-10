@@ -482,16 +482,39 @@ img {
         line-height: 14px;
     }
 
+    .download {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgba(49, 47, 48, 1);
+    }
+
+    .download__contact {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text__download {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+color: #FFFFFF;
+    }
+
     .footer {
         padding-top: 125px 0px 140px;
     }
 
     .footer__container {
+        align-items: center;
+        max-width: 1500px;
+        margin: 0 auto;
         display: flex;
     }
 
     .footer__contact {
-        flex-direction: column;
+        margin-right: 210px;
     }
 
     .logo {
@@ -501,8 +524,6 @@ img {
     }
 
     .logo__img {
-        width: 175.87px;
-height: 88.09px;
     }
 
     .footer__links {
